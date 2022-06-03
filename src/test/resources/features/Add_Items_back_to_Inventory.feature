@@ -3,7 +3,6 @@ Feature:Add Items back to Inventory
   I want to add items back to inventory when they are returned or exchanged,
   so that I can track inventory.
 
-
 Scenario: Items returned for refund should be added to inventory
     Given that a customer previously bought a black sweater from me
     And I have three black sweaters in inventory
